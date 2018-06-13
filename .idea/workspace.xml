@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1333385c-08a2-47e0-8ad7-89d19b3eb337" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Blackjack.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Blackjack.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Card.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Card.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/needstyping/blackjack/BlackjackSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/needstyping/blackjack/BlackjackSpec.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="Blackjack.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Blackjack.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="202" lean-forward="false" selection-start-line="3" selection-start-column="202" selection-end-line="3" selection-end-column="202" />
+            <state relative-caret-position="105">
+              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -75,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Card.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Blackjack.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/needstyping/blackjack/BlackjackSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Blackjack.scala" />
       </list>
     </option>
   </component>
@@ -390,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/needstyping/blackjack/Blackjack.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="202" lean-forward="false" selection-start-line="3" selection-start-column="202" selection-end-line="3" selection-end-column="202" />
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
