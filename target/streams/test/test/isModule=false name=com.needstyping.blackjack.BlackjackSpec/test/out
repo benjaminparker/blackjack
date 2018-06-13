@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mBlackjackSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBlackjack[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return YES when an Ace and a King are dealt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return YES when an Ace and a Queen are dealt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return YES when an Ace and a Jack are dealt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return NO when an Ace and a 10 are dealt[0m[0m

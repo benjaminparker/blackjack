@@ -8,6 +8,8 @@ case object Clubs extends Suit
 
 sealed trait Value
 case object King extends Value
+case object Queen extends Value
+case object Jack extends Value
 case object Ace extends Value
 case object Ten extends Value
 
