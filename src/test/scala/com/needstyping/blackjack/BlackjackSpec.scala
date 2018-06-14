@@ -9,12 +9,12 @@ class BlackjackSpec extends WordSpec {
 
   "Blackjack" should {
 
-    "return YES when an Ace and a Picture Card are dealt" in {
+    "return true when an Ace and a picture card are dealt" in {
       blackjack.isBlackjack(Card(Ace, Clubs), Card(King, Spades)) shouldBe true
     }
 
-    "return NO when an Ace and a 10 are dealt" in {
-      blackjack.isBlackjack(Card(Ten, Diamonds), Card(Ace, Hearts)) shouldBe false
+    "return true when an Ace and a 10 are dealt" in {
+      blackjack.isBlackjack(Card(Ten, Diamonds), Card(Ace, Hearts)) shouldBe true
     }
   }
 
