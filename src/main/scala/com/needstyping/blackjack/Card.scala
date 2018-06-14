@@ -13,4 +13,4 @@ case object Jack extends Value
 case object Ace extends Value
 case object Ten extends Value
 
-case class Card(value: Value, suit: Suit)
+case class Card(value: Value, suit: Suit, isTenValue: Boolean)
