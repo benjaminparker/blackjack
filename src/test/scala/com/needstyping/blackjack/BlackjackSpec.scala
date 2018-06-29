@@ -10,24 +10,24 @@ class BlackjackSpec extends WordSpec {
   "Blackjack" should {
 
     "return true when an Ace and a King are dealt" in {
-      blackjack.isBlackjack(Card(Ace, Clubs, false), Card(King, Spades, true)) shouldBe true
+      blackjack.isBlackjack(Card(Ace, Clubs), Card(King, Spades)) shouldBe true
     }
 
     "return true when an King and a Ace are dealt" in {
-      blackjack.isBlackjack(Card(King, Diamonds, true), Card(Ace, Spades,false)) shouldBe true
+      blackjack.isBlackjack(Card(King, Diamonds), Card(Ace, Spades)) shouldBe true
     }
 
     "return true when an Ace and a Jack are dealt" in {
-      blackjack.isBlackjack(Card(Ace, Hearts, false), Card(Ten, Hearts ,true)) shouldBe true
+      blackjack.isBlackjack(Card(Ace, Hearts), Card(Ten, Hearts)) shouldBe true
     }
 
     "return true when an Ace and a picture card are dealt" in {
-      blackjack.isBlackjack(Card(Ace, Clubs, false), Card(King, Spades, true)) shouldBe true
+      blackjack.isBlackjack(Card(Ace, Clubs), Card(King, Spades)) shouldBe true
     }
 
     "return true when an Ace and a 10 are dealt" in {
-      blackjack.isBlackjack(Card(Ten, Diamonds,true), Card(Ace, Hearts, false)) shouldBe true
+      blackjack.isBlackjack(Card(Ten, Diamonds), Card(Ace, Hearts)) shouldBe true
     }
-
   }
 }
+
