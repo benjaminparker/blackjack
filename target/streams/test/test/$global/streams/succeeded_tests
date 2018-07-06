@@ -1,3 +1,6 @@
 #Successful Tests
-#Thu Jun 14 10:16:48 BST 2018
-com.needstyping.blackjack.BlackjackSpec=1528967808280
+#Fri Jul 06 15:13:09 BST 2018
+com.needstyping.blackjack.DealerStrategySpec=1530886389137
+com.needstyping.blackjack.BlackjackSpec=1530883317530
+com.needstyping.blackjack.BlackjackGameSpec=1530886389138
+com.needstyping.blackjack.BlackjackRulesSpec=1530886389140

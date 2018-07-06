@@ -1,8 +1,12 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.needstyping.blackjack.BlackjackSpec, org.scalatest.tools.Framework$$anon$1@1d73c672, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 664 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.needstyping.blackjack.DealerStrategySpec, org.scalatest.tools.Framework$$anon$1@7fc6a517, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.needstyping.blackjack.BlackjackGameSpec, org.scalatest.tools.Framework$$anon$1@7fc6a517, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.needstyping.blackjack.BlackjackRulesSpec, org.scalatest.tools.Framework$$anon$1@7fc6a517, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 169 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 9[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com.needstyping.blackjack.BlackjackSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.needstyping.blackjack.DealerStrategySpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.needstyping.blackjack.BlackjackGameSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.needstyping.blackjack.BlackjackRulesSpec[0m
