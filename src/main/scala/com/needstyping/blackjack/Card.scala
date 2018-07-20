@@ -24,4 +24,6 @@ case object Three extends Name { val score = 3 }
 case object Two extends Name { val score = 2 }
 case object Ace extends Name { val score = 1 }
 
-case class Card(name: Name, suit: Suit)
+case class Card(name: Name, suit: Suit) {
+  override def toString: String = s"$name of $suit"
+}
