@@ -11,7 +11,7 @@ trait BlackjackRules {
   def winner(dealersHand: List[Card], playersHand: List[Card]): String = {
     val dealersScore = dealersHand.map(_.name.score).sum
     val playersScore = playersHand.map(_.name.score).sum
-    if (dealersScore > playersScore) "Dealer" else "foo"
+    if (dealersScore > playersScore) "Dealer" else "Player"
   }
 }
 
