@@ -1,8 +1,17 @@
 package com.needstyping.blackjack
 
-trait BlackjackGame {
+object BlackjackGame extends BlackjackTable with BlackjackRules {
 
-  def bet:  Int => (List[Card], List[Card], Int) = b => {
-    (List(Card(Seven, Diamonds)), List(Card(Queen, Spades), Card(Three, Hearts)), b)
+  def main(args: Array[String]): Unit = {
+    println("Please enter a bet amount: ")
+    val betAmount = scala.io.StdIn.readInt()
+    println(s"Betting ... £$betAmount")
+
+    val (dealerHand, playerHand, _, deck) = bet(betAmount, Card.completeDeck)
+
+    println("Dealer has: " + dealerHand.mkString(","))
+    println("You have: " + playerHand.mkString(","))
+
+
   }
 }
